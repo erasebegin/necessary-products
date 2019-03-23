@@ -34,7 +34,8 @@ a:visited {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%px;
+    margin: auto;
+    width: 50%;
 }
 
 #main-title {
@@ -47,12 +48,13 @@ a:visited {
 #nav-buttons {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 249, 194);
-    width: 100%;
+    width: 50%;
     height: 50px;
     font-size: 1.2em;
+    margin: auto;
 }
 
 #intro {
