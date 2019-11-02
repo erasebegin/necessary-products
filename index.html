@@ -20,7 +20,7 @@
             </div>
 
             <!-- MAIL FORM -->
-            <div class="mail-form container">
+            <div class="container mail-form ">
                     <p>Give us your email right now!</p>
                     <form id="email-form" action="https://www.freecodecamp.com/email-submit">
                         <input type="email" id="email" placeholder="Or you'll regret it :)">
@@ -29,56 +29,109 @@
             </div>
 
             <!-- PRODUCTS -->
-            <div class="container">
-                    <h2 class="section-title products-title">Products</h2> <br>
-                    <div class="product-flex-container">
-                        <div class="product-card">
-                            <div class="card-title">
-                                <h3>Carnage Pro</h3>
-                                <h4>Motivational Bike Seat</h4>
-                            </div>
-                            <img src="https://i.ibb.co/X7q7vZb/Carnage-Pro-2x.png" class="product-image">
-                            <ul class="product-description">
-                                <li>Dynamic spike arrangement</li>
-                                <li>Military grade projectile system propels spikes into rider if speed falls below 10mph</li>
-                                <li>State of the art threatening AI can be customised to sound like your most feared person or creature</li>
-                                <li>Medically proven to cause discomfort</li>
-                            </ul>
+            <h2 class="section-title products-title">Products</h2>
+            <div id="products" class="container">
+                <div class="product-flex-container">
+                    <div class="product-card">
+                        <div class="card-title">
+                            <h3>Carnage Pro</h3>
+                            <h4>Motivational Bike Seat</h4>
                         </div>
-                        <div class="product-card">
-                            <div class="card-title">
-                                <h3>Cooking Cap</h3>
-                                <h4>Multifunction Gastronomic Headpiece</h4>
-                            </div>
-                            <img src="https://i.ibb.co/YktDCCf/Cooking-Cap-2x.png" class="product-image">
-                            <ul class="product-description">
-                                <li>Can be worn while cooking:</li>
-                                    <ul>
-                                        <li>carrots</li>
-                                        <li>fishtails</li>
-                                        <li>marmalade</li>
-                                        <li>ancient cream</li>
-                                        <li>substances</li>
-                                        <li>and many more!</li>
-                                    </ul>
-                                <li>Peak rotates 360&deg</li>
-                                <li>Suitable for both day and night time use</li>
-                            </ul>
+                        <img src="https://i.ibb.co/X7q7vZb/Carnage-Pro-2x.png" class="product-image">
+                        <ul class="product-description">
+                            <li>Dynamic spike arrangement</li>
+                            <li>Military grade projectile system propels spikes into rider if speed falls below 10mph</li>
+                            <li>State of the art threatening AI can be customised to sound like your most feared person or creature</li>
+                            <li>Medically proven to cause discomfort</li>
+                        </ul>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-title">
+                            <h3>Cooking Cap</h3>
+                            <h4>Multifunction Gastronomic Headpiece</h4>
                         </div>
-                        <div class="product-card">
-                            <div class="card-title">
-                                <h3>SPLEB+</h3>
-                                <h4>Microwave Hand Sanitiser</h4>
-                            </div>
-                            <img src="https://i.ibb.co/tsq2yCT/SPLEB-2x.png" class="product-image">
-                            <ul class="product-description">
-                                <li>Voice activated</li>
-                                <li>Accepts a variety of appendages</li>
-                                <li>Kills 100% of bacteria and more!</li>
-                            </ul>
+                        <img src="https://i.ibb.co/YktDCCf/Cooking-Cap-2x.png" class="product-image">
+                        <ul class="product-description">
+                            <li>Can be worn while cooking:</li>
+                                <ul>
+                                    <li>carrots</li>
+                                    <li>fishtails</li>
+                                    <li>marmalade</li>
+                                    <li>ancient cream</li>
+                                    <li>substances</li>
+                                    <li>and many more!</li>
+                                </ul>
+                            <li>Peak rotates 360&deg</li>
+                            <li>Suitable for both day and night time use</li>
+                        </ul>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-title">
+                            <h3>SPLEB+</h3>
+                            <h4>Microwave Hand Sanitiser</h4>
                         </div>
+                        <img src="https://i.ibb.co/tsq2yCT/SPLEB-2x.png" class="product-image">
+                        <ul class="product-description">
+                            <li>Voice activated</li>
+                            <li>Accepts a variety of appendages</li>
+                            <li>Kills 100% of bacteria and more!</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+
+            <!-- BENEFITS -->
+            <h2 class="section-title">Benefits</h2>
+            <div id="benefits" class="container text-container">
+                <p>
+                    Do you like it when people say 'hey, cool person! wow!' and then look 
+                    away because they're embarassed? Do you want to be the thing that people 
+                    look at in a room or outside a room? Then our products are necessary for you. 
+                    Not only are our products proven to <strong>increase public recognition by more 
+                    than 29%</strong>, they also make your body and health and smartness better a lot.
+                    If you ever suffered from unproper health or unknown bad effects 
+                    then you need a <strong>Necessary Product&trade;</strong>.
+                </p>
+                <p class="quote">"This product is an absolute piece of [goodness]."</p>
+                <p class="quote-ref">&mdash; Engadget</p>
+                <p class="quote">It didn't even occur to me that something could be so completely and utterly...</p>
+                <p class="quote-ref">&mdash; The Mail on Sunday</p>
+                <p class="quote">"Albert Einstein would be rolling in his [car] to see such a mind-bogglingly [product]"</p>
+                <p class="quote-ref">&mdash; Wired</p>
+            </div>
+
+            <!-- ABOUT -->
+            <h2 class='section-title' id='about-us-title'>About Us</h2>
+            <div id='about-us' class="container text-container">
+                <p>
+                    Necessary Products&trade; was founded by Fan Duran Glan in 2019 as an answer
+                    to the global shortage of necessary products. Fan looked around and saw that
+                    the world was lacking something that probably only he could provide. He set
+                    to work on trying to establish his brand so that he could make some products,
+                    but it wasn't until 2019 that he eventually came up with the name that would
+                    carry him to relative success. He is now leading a team of more than half a 
+                    person including himself and works tirelessly to make the things that people
+                    need. After many years of struggling with a market that was resistant to such 
+                    high levels of necessity, Fan eventually made a name for himself in 2019, on
+                    his website, which can be seen below. <br><br>
+    
+                    <span id='fan-duran-glan'><b>&mdash; Fan Duran Glan</b></span>
+                </p>
     </div>
+    <script>   
+        // retrieve all elements
+var allElements = document.querySelectorAll('*');
+var bigElements = 
+  // use the filter function to filter get only elements you need
+  Array.prototype.filter.call(
+    allElements, 
+               // compares occupied width with window width
+    element => element.getBoundingClientRect().width > window.innerWidth
+  );
+
+// print resulting elements
+bigElements.forEach(element => console.log(element));
+if (!bigElements.length) console.log('Yaay! All elements fit. ');
+    </script>
 </body>
 </html>
