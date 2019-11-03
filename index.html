@@ -13,19 +13,19 @@
     <div class="grid-container">
 
             <!-- HERO -->
-            <div class="hero">
-                    <img class="header-img header-img1" src="https://i.ibb.co/7WwRHT4/logo-2x.png">
-                    <h1 class="main-title">Necessary Products</h1>
-                    <img class="header-img header-img2" src="https://i.ibb.co/7WwRHT4/logo-2x.png">
+            <div class="hero" id="hero">                    
+                <h1 class="main-title">Necessary Products</h1>
             </div>
 
             <!-- MAIL FORM -->
-            <div class="container mail-form ">
-                    <p>Give us your email right now!</p>
-                    <form id="email-form" action="https://www.freecodecamp.com/email-submit">
-                        <input type="email" id="email" placeholder="Or you'll regret it :)">
+            <div class="container form-container">
+                    <img class="eye eye1" src="https://i.ibb.co/7WwRHT4/logo-2x.png">   
+                    <form class="mail-form" action="https://www.freecodecamp.com/email-submit">
+                        <p>Give me your email this instant!</p>
+                        <input type="email" id="email" placeholder="I shall consume it">
                         <button id="submit" type="submit">Submit</button>
                     </form>   
+                    <img class="eye eye2" src="https://i.ibb.co/7WwRHT4/logo-2x.png">
             </div>
 
             <!-- PRODUCTS -->
@@ -109,29 +109,15 @@
                     the world was lacking something that probably only he could provide. He set
                     to work on trying to establish his brand so that he could make some products,
                     but it wasn't until 2019 that he eventually came up with the name that would
-                    carry him to relative success. He is now leading a team of more than half a 
+                    carry him to relative success. <br><br> Fan is now leading a team of more than half a 
                     person including himself and works tirelessly to make the things that people
                     need. After many years of struggling with a market that was resistant to such 
                     high levels of necessity, Fan eventually made a name for himself in 2019, on
                     his website, which can be seen below. <br><br>
     
-                    <span id='fan-duran-glan'><b>&mdash; Fan Duran Glan</b></span>
+                    <span class='signature'><b>&mdash; Fan Duran Glan</b></span>
                 </p>
     </div>
-    <script>   
-        // retrieve all elements
-var allElements = document.querySelectorAll('*');
-var bigElements = 
-  // use the filter function to filter get only elements you need
-  Array.prototype.filter.call(
-    allElements, 
-               // compares occupied width with window width
-    element => element.getBoundingClientRect().width > window.innerWidth
-  );
-
-// print resulting elements
-bigElements.forEach(element => console.log(element));
-if (!bigElements.length) console.log('Yaay! All elements fit. ');
-    </script>
+    <script src="scroll-behaviour.js"></script>
 </body>
 </html>
