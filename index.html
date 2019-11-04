@@ -13,12 +13,24 @@
     <div class="grid-container">
 
             <!-- HERO -->
-            <div class="hero" id="hero">                    
+            <div class="hero" id="hero">       
+                <button class="nav-btn-open"><i class="fas fa-bars"></i></button> 
+                    
                 <h1 class="main-title">Necessary Products</h1>
+                <div class="nav">
+                    <button class="nav-btn-close">&times;</button>    
+                    <ul>
+                        <li><a href="#top">Top</a></li>
+                        <li><a href="#Products">Products</a></li>
+                        <li><a href="#Benefits">Benefits</a></li>
+                        <li><a href="#About">About Us</a></li>
+                    </ul>
+                </div>
             </div>
 
             <!-- MAIL FORM -->
-            <div class="container form-container">
+            <div class="form-margin" id="form-margin"></div> //creates padding to keep top of page in line with hero changing size
+            <div class="container form-container" id="mail-form">
                     <img class="eye eye1" src="https://i.ibb.co/7WwRHT4/logo-2x.png">   
                     <form class="mail-form" action="https://www.freecodecamp.com/email-submit">
                         <p>Give me your email this instant!</p>
@@ -29,7 +41,7 @@
             </div>
 
             <!-- PRODUCTS -->
-            <h2 class="section-title products-title">Products</h2>
+            <h2 class="section-title products-title" id="Products">Products</h2>
             <div id="products" class="container">
                 <div class="product-flex-container">
                     <div class="product-card">
@@ -81,7 +93,7 @@
             </div>
 
             <!-- BENEFITS -->
-            <h2 class="section-title">Benefits</h2>
+            <h2 class="section-title" id="Benefits">Benefits</h2>
             <div id="benefits" class="container text-container">
                 <p>
                     Do you like it when people say 'hey, cool person! wow!' and then look 
@@ -101,7 +113,7 @@
             </div>
 
             <!-- ABOUT -->
-            <h2 class='section-title' id='about-us-title'>About Us</h2>
+            <h2 class='section-title' id='About'>About Us</h2>
             <div id='about-us' class="container text-container">
                 <p>
                     Necessary Products&trade; was founded by Fan Duran Glan in 2019 as an answer
@@ -118,6 +130,7 @@
                     <span class='signature'><b>&mdash; Fan Duran Glan</b></span>
                 </p>
     </div>
-    <script src="scroll-behaviour.js"></script>
+    <script src="https://kit.fontawesome.com/f5f87e1ceb.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
