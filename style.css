@@ -229,6 +229,7 @@ body {
 }
 
 .product-description {
+    margin-top: 2em;
     grid-row: 3;
     max-width: 80%;
     align-self: start;
